@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPDPKZw4F7xVg5kpPonlA7U",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sigma-asad/hds5210-2023/blob/main/inclasswork_week5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names=[['asad','khan'], ['bush','the','cat'], ['donald', 'the', 'trump']]"
+      ],
+      "metadata": {
+        "id": "R4Nt7SdIP7Gd"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 24,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 242
+        },
+        "id": "S-jWWD793uNR",
+        "outputId": "3a59fe43-2e0c-49bb-9317-8ccb434565de"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-24-2e4fdabc5e70>\u001b[0m in \u001b[0;36m<cell line: 11>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;31m#output the order i want the strings in\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m \u001b[0mlast_names\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 11\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mitem\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mname_list\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     12\u001b[0m   \u001b[0mwhole_name\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m' '\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mitem\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m   \u001b[0mlast_name\u001b[0m\u001b[0;34m=\u001b[0m \u001b[0mitem\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'name_list' is not defined"
+          ]
+        }
+      ],
+      "source": [
+        "def name_sorter (name_list):\n",
+        "  '''(list)->list\n",
+        "  iterate through each item of the input list and join the items together to make a sting.\n",
+        "\n",
+        "  as i iterate i will create a new list with the output strings.\n",
+        "  '''\n",
+        "\n",
+        "output=[]\n",
+        "#output the order i want the strings in\n",
+        "last_names=[]\n",
+        "for item in name_list:\n",
+        "  whole_name=' '.join(item)\n",
+        "  last_name= item[-1]\n",
+        "  print((last_name))\n",
+        "  last_names.append(item[-1])\n",
+        "\n",
+        "#for item in name_list:\n",
+        "#  name=''.join(item)\n",
+        "#  output.append(name)\n",
+        "#  print(output)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "YGXOrrF9QWen"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
