@@ -4,14 +4,14 @@ Each week, you'll receive a feedback file in GitHub showing a final grade and an
 This assignment was focused on the use of Python and Pandas to load and visualize data, giving you something to interpret and help you understand the data. You did not nee to encapsulate your code in functions or provide docstrings/doctests in your functions.
 
 
-## Final Score: 2/10
+## Final Score: 9/10
 
 
 ## First Half: Interpretation and Feedback
-0 pts - No file
+3 pts - No detailed comparision between the attributes in 41.2 and 41.3. Can be described in a better way.
 
 ## Second Half: 
-0pts- No file
+6 pts- Good work!
 
 
 ## Coding Best Practices:
